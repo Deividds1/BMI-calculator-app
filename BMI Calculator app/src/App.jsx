@@ -68,18 +68,18 @@ function App() {
             <h4>Enter your details below</h4>
 
             <div className="measurements-container metric">
-              <label for="height">
+              <label>
                 <span>Height</span>
                 <div className="input-wrapper">
-                  <input onChange={(e) => setHeight(e.target.value)} value={height} type="number" name="height" autocomplete="off" />
-                  <label for="height">cm</label>
+                  <input onChange={(e) => setHeight(e.target.value)} value={height} type="number" name="height" autoComplete="off" />
+                  <label >cm</label>
                 </div>
               </label>
-              <label for="weight">
+              <label>
                 <span>Weight</span>
                 <div className="input-wrapper">
-                  <input onChange={(e) => setWeight(e.target.value)} value={weight} type="number" name="weight" autocomplete="off" />
-                  <label for="weight">kg</label>
+                  <input onChange={(e) => setWeight(e.target.value)} value={weight} type="number" name="weight" autoComplete="off" />
+                  <label>kg</label>
                 </div>
               </label>
             </div>
